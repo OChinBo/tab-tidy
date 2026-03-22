@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Tidy - 重複分頁清理器",
+  "version": "1.1",
+  "description": "點擊圖示即可一鍵清理重複網址的分頁，保留最新開啟的頁面。",
+  "permissions": ["tabs", "storage", "contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "點擊清理重複分頁"
+  }
+
+}
